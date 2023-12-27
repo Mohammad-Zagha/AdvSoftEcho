@@ -13,7 +13,7 @@ router.post('/', async (req, res) => {
     res.status(201).send('Report created successfully.');
   });
 });
-
+//test
 // Get reports by user ID
 router.get('/:userId', async (req, res) => {
   const { userId } = req.params;
