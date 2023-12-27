@@ -4,7 +4,7 @@ const bcrypt = require('bcryptjs');
 const pool = require('../middlewear/mySqlConnect');
 const router = express.Router();
 
-
+//test
 router.post('/signup', async (req, res) => {
   try {
     const { username, password, concerns } = req.body;
